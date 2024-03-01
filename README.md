@@ -9,7 +9,7 @@ namespace oxygenPdb {
 #define DOWNLOAD_WEB "http://msdl.blackint3.com:88/download/symbols/"
 ```
 3. Use the following code
-   ```C++
+```C++
   oxygenPdb::NaotanPdber nt("ntoskrnl.exe");
 	oxygenPdb::NaotanPdber k32("kernelbase.dll");
 	oxygenPdb::NaotanPdber w32("win32k.sys");
