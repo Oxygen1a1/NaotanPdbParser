@@ -10,7 +10,7 @@ namespace oxygenPdb {
 ```
 3. Use the following code
 ```C++
-  oxygenPdb::NaotanPdber nt("ntoskrnl.exe");
+  	oxygenPdb::NaotanPdber nt("ntoskrnl.exe");
 	oxygenPdb::NaotanPdber k32("kernelbase.dll");
 	oxygenPdb::NaotanPdber w32("win32k.sys");
 
